@@ -1,0 +1,15 @@
+local keys = {
+    ["01a0c127-409f-76e9-84da-dff1d86f4345"] = {
+        Valid = true,
+    },
+    ["01a0c129-1e61-772d-8e43-7b104e0aa355"] = {
+        Valid = false,
+        Reason = "Invalid Hwid"
+    },
+    ["01a0c129-7049-703d-a45b-5f4a331271e2"] = {
+        Valid = false,
+        Reason = "Key Is Blacklisted",
+    }
+}
+
+return keys
